@@ -8,7 +8,7 @@ repository = "https://github.com/h-mathias/cmake-file-api-rs"
 readme = "README.md"
 keywords = ["cmake", "cmake-file-api", "cpp"]
 categories = ["api-bindings", "filesystem"]
-license = "MIT"
+license = "MIT OR UNLICENSE"
 edition = "2021"
 
 [dependencies]
