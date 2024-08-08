@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Swatinem/rust-cache@v2
+      - name: clippy
+        run: cargo clippy
+      - name: Install LLVM and Clang
+        uses: KyleMayes/install-llvm-action@v2
+        with:
+          version: "17.0"
+      - name: Install cmake + ninja
+        run: sudo apt-get install -y cmake ninja-build
+      - name: tests
+        run: cargo test
+      - name: slow tests
+        run: cargo test -- --ignored
+      - name: docs
+        run: cargo doc

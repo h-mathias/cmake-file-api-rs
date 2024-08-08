@@ -1,0 +1,32 @@
+[package]
+name = "cmake-file-api"
+version = "0.1.1"
+authors = ["Mathias H. <mathias.github@outlook.com>"]
+description = "Parsing and interacting with cmake-file-api"
+homepage = "https://github.com/h-mathias/cmake-file-api-rs"
+repository = "https://github.com/h-mathias/cmake-file-api-rs"
+readme = "README.md"
+keywords = ["cmake", "cmake-file-api", "cpp"]
+categories = ["api-bindings", "filesystem"]
+license = "Unlicense OR MIT"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+thiserror = "1.0"
+shlex = "1.3"
+
+[dev-dependencies]
+tempdir = "0.3"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+shadow_reuse = "forbid"
+exhaustive_enums = "forbid"
+panic = "forbid"
+shadow_unrelated = "forbid"
+
+
