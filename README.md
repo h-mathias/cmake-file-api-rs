@@ -65,4 +65,4 @@ The API is commonly used insides IDE's but can also be used for other tooling pu
 
 # Related projects
 - [python-cmake-file-api](https://github.com/madebr/python-cmake-file-api): Python bindings for the CMake File API
-- [cfi-java](https://github.com/WalkerKnapp/cfi-java): Java bindings for the CMake File API 
+- [cfi-java](https://github.com/WalkerKnapp/cfi-java): Java bindings for the CMake File API
