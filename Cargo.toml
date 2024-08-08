@@ -1,6 +1,6 @@
 [package]
 name = "cmake-file-api"
-version = "0.0.9"
+version = "0.0.10"
 authors = ["Mathias H. <mathias.github@outlook.com>"]
 description = "Parsing and interacting with cmake-file-api"
 homepage = "https://github.com/h-mathias/cmake-file-api-rs"
