@@ -11,12 +11,7 @@ Dual-licensed under MIT or the [UNLICENSE](https://unlicense.org).
 
 ### Usage
 
-Add this to your `Cargo.toml`:
-
-```toml
-[dependencies]
-cmake-file-api = "0.1"
-```
+Run `cargo add cmake-file-api` to add the crate to your project.
 
 ### Example
 
