@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2](https://github.com/h-mathias/cmake-file-api-rs/compare/v0.1.1...v0.1.2) - 2024-08-12
+
+### Other
+- move lints to lib.rs
+- add rust-version (cargo-msrv)
+
 ## [0.1.1](https://github.com/h-mathias/cmake-file-api-rs/compare/v0.1.0...v0.1.1) - 2024-08-08
 
 ### Other
