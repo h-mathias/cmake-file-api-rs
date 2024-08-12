@@ -21,13 +21,4 @@ shlex = "1.3"
 [dev-dependencies]
 tempdir = "0.3"
 
-[lints.rust]
-unsafe_code = "forbid"
-
-[lints.clippy]
-shadow_reuse = "forbid"
-exhaustive_enums = "forbid"
-panic = "forbid"
-shadow_unrelated = "forbid"
-
 

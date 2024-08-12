@@ -56,12 +56,13 @@
 //! The API is designed to be used by tools that need to interact with `CMake` (IDE) but can also be used for other tooling purposes e.g. generate `compile_commands.json`.
 //!
 //!
-#![allow(clippy::implicit_return)]
-#![allow(clippy::missing_inline_in_public_items)]
-#![allow(clippy::question_mark_used)]
-#![allow(clippy::missing_docs_in_private_items)]
-#![allow(clippy::missing_trait_methods)]
-#[allow(clippy::self_named_module_files)]
+//!
+
+#![forbid(unsafe_code)]
+#![forbid(clippy::panic)]
+#![forbid(clippy::shadow_reuse)]
+#![forbid(clippy::shadow_unrelated)]
+#![forbid(clippy::exhaustive_enums)]
 
 pub mod index;
 pub mod objects;
