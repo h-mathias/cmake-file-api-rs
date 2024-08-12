@@ -10,6 +10,7 @@ keywords = ["cmake", "cmake-file-api", "cpp"]
 categories = ["api-bindings", "filesystem"]
 license = "Unlicense OR MIT"
 edition = "2021"
+rust-version = "1.62.1"
 
 [dependencies]
 serde_json = "1.0"
